@@ -1,0 +1,17 @@
+Package: nba
+Title: Analyzing NBA players
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Hyunyoung",
+           family = "Shin",
+           role = c("aut", "cre"),
+           email = "hs3158@columbia.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package helps finding the best NBA player by year, the oldest player by year, and creating correlation matrix for all numeric variables.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+  data.table (>= 1.9.4),
+  tidyverse
